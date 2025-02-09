@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="icon" href="./Assets/Svgs/Spotify-logo.svg" type="image/png">
+    <link rel="stylesheet" href="./styles/utility.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container grid">
+
+
+      <!-- Upper Header Box -->
+      <div class="left-upper flex black-border bg-black">
+        <div class="logo">
+          <img
+            class="logo-svg"
+            src="./Assets/Svgs/Spotify-logo.svg"
+            alt="brand"
+          />
+        </div>
+        <div class="home p1 bg-grey">
+          <img class="home-svg" src="./Assets/Svgs/home.svg" alt="home" />
+        </div>
+        <div class="search-section bg-grey">
+          <div class="search-icon p1">
+            <img class="search-svg" src="./Assets/Svgs/search.svg" alt="" />
+          </div>
+          <div class="searchbar">
+            <div
+              class="header--search input-group has-left-icon has-right-icon can-delete"
+            >
+              <span class="left-icon bg-grey lni lni-search"></span>
+
+              <input
+                type="text"
+                id="search"
+                name="search"
+                class="input"
+                placeholder="Search Music"
+              />
+
+              <span class="right-icon clear--search lni lni-close"></span>
+            </div>
+          </div>
+        </div>
+        <div class="logSin bg-black p1 ">
+          <button type="button" class="log bg-grey p1 black-border"><a href="./Login-page.html" style="color: white; font-size: medium;" class="no-line">Log In</a> </button>
+          <button type="button"class="sign p1 grey-border"><a href="./SignUp-page.html" style="color: black; font-size: medium;"  class="no-line">Sign Up</a> </button></a>
+          
+        </div>  
+      </div>
+
+
+
+      <!-- Left Middle Library Box -->
+      <div class="Library left-middle flex  grey-border bg-grey">
+        <div class="heading flex">
+          <div class="library-part flex" style="max-height: 45px;">
+            <img
+              src="./Assets/Svgs/library.svg"
+              alt=""
+              class="library-icon invert p1"
+            />
+            <h3 class="invert library-text p1" style="min-width: 110px;" >Your Library</h3>
+          </div>
+        <div class="remain-part flex">
+            <img src="./Assets/Svgs/plus-icon.svg" alt="" class="plus invert p1" />
+            <!-- <img src="./Assets/Svgs/show-more.svg" alt="" class="more invert p1"/> -->
+        </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Left Lower Footer  -->
+      <div class="left-lower footer bg-grey grey-border">
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+              </div>
+              <div>  
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+              </div>  
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+              </div>  
+              <div>
+                <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+              </div>  
+              <div>  
+                <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a>
+              </div> 
+      </div>
+
+
+       <!-- Right Major Box -->
+      <div class="right-box grey-border bg-grey">
+       <h2 class="albums invert ">Popular albums</h1>
+       <div class="cardcontainer1 flex">
+           <div class="card p1">
+             <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+             <h3 class="invert">GLORY</h3>
+             <p class="invert gy-clr">Yo Yo Honey Singh</p> 
+           </div>
+           <div class="card p1">
+            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+            <h3 class="invert">Aashiqui 2</h3>
+            <p class="invert gy-clr">Mitthoon, Ankit Tiwari, Jeet Gannguli</p> 
+          </div>
+          <div class="card p1">
+            <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" alt="">
+            <h3 class="invert">love Hotel</h3>
+            <p class="invert gy-clr">leftovermax</p> 
+          </div>
+          <div class="card p1">
+            <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+            <h3 class="invert">Aaj Ki Raat</h3>
+            <p class="invert gy-clr">Sachin-Jigar, Amitabh Bhattacharya</p> 
+          </div>
+          <div class="card p1">
+            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+            <h3 class="invert">Making Memories</h3>
+            <p class="invert gy-clr">Karan Aujla, Ikky</p> 
+          </div>
+       </div>
+
+
+       <h2 class="albums invert ">Popular Artists</h1>
+        <div class="cardcontainer2 flex">
+          <div class="card2 p1">
+            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+            <h3 class="invert">Pritam</h3>
+            <p class="invert gy-clr">Artist</p> 
+          </div>
+          <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+           <h3 class="invert">A.R.Rahman</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="">
+           <h3 class="invert">Sachin-Jigar</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="">
+           <h3 class="invert">Yo Yo Honey Singh</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="">
+           <h3 class="invert">Vishal-Shekhar</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+      </div>
+
+
+
+      <h2 class="albums invert ">Popular Radio</h1>
+        <div class="cardcontainer1 flex">
+          <div class="card p1">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en" alt="">
+            <h3 class="invert">GLORY</h3>
+            <p class="invert gy-clr">Yo Yo Honey Singh</p> 
+          </div>
+          <div class="card p1">
+           <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en" alt="">
+           <h3 class="invert">Aashiqui 2</h3>
+           <p class="invert gy-clr">Mitthoon, Ankit Tiwari, Jeet Gannguli</p> 
+         </div>
+         <div class="card p1">
+           <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" alt="">
+           <h3 class="invert">love Hotel</h3>
+           <p class="invert gy-clr">leftovermax</p> 
+         </div>
+         <div class="card p1">
+           <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en" alt="">
+           <h3 class="invert">Aaj Ki Raat</h3>
+           <p class="invert gy-clr">Sachin-Jigar, Amitabh Bhattacharya</p> 
+         </div>
+         <div class="card p1">
+           <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en" alt="">
+           <h3 class="invert">Making Memories</h3>
+           <p class="invert gy-clr">Karan Aujla, Ikky</p> 
+         </div>
+      </div>
+
+      <!-- <h2 class="albums invert ">Featured Playlist</h1>
+        <div class="cardcontainer2 flex">
+          <div class="card2 p1">
+            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+            <h3 class="invert">Pritam</h3>
+            <p class="invert gy-clr">Artist</p> 
+          </div>
+          <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+           <h3 class="invert">A.R.Rahman</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="">
+           <h3 class="invert">Sachin-Jigar</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="">
+           <h3 class="invert">Yo Yo Honey Singh</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+         <div class="card2 p1">
+           <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="">
+           <h3 class="invert">Vishal-Shekhar</h3>
+           <p class="invert gy-clr">Artist</p> 
+         </div>
+      </div> -->
+
+
+      <div class="right-footer-cont flex">
+
+        <div class="right-box-footer">
+          <div class="invert " style="font-size: 18px;">Creator</div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">About</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px; ">Works</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">Social</a>
+          </div>
+        </div>
+
+        <div class="right-box-footer">
+          <div class="invert " style="font-size: 18px;">Communities</div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">Discord</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px; ">Telegram</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">Instagram</a>
+          </div>
+        </div>
+        
+        <div class="right-box-footer">
+          <div class="invert " style="font-size: 18px;">Useful links</div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">Contact</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px; ">Creator Site</a>
+          </div>
+          <div class="gy-clr p1-top" style="font-size: 16px;">
+            <a href="" class="right-box-links gy-clr p1-top fw-normal" style="font-size: 16px;">Spotify better</a>
+          </div>
+        </div>
+
+      </div>
+      
+      
+    </div>
+    </div>
+  </body>
+</html>

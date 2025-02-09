@@ -1,0 +1,71 @@
+.black-border{
+    border: 3px solid black;
+    margin: 3px;
+    border-radius:6px;
+}
+
+.grey-border{
+    border: 3px solid #191919;
+    margin: 3px;
+    border-radius:6px;
+}
+
+.bg-grey{
+    background-color: #191919;
+}
+.bg-grey2{
+    background-color: #121212;
+}
+.bg-black{
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+.invert{
+    filter:invert(1);
+}
+
+.bg-gradient{
+    background: linear-gradient(180deg, #2A2A2A 0%, #000000 100%);
+}
+
+.p1{
+    padding: 10px;
+}
+
+.p1-top{
+    padding-top: 10px;
+}
+
+.gy-clr{
+    color: #808080;
+}
+
+.fw-normal{
+    font-weight: normal;
+}
+
+.white-border{
+    border: 3px solid white;
+    margin: 3px;
+    border-radius:6px;
+}
+
+.no-line{
+    text-decoration: none;
+}

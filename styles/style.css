@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+   font-family:Roboto;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+ background-color:rgb(0, 0, 0); 
+ max-height: 90vh;   
+ 
+}  
+.container{
+    margin-top: 0;
+    display: grid;
+    grid-row-gap:0;
+    column-gap:0;
+    grid-template-columns: 23vw auto;
+    grid-template-rows: 65px 1fr auto;
+}
+
+
+
+
+/* differnet boxes of site */
+.left-upper{
+    margin-top: 1px;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    grid-area: 1/1/2/3;
+}
+
+.left-middle{
+    border-radius: 10px;
+    grid-area:2/1/3/2;
+    margin: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: auto;
+    max-width: 22vw;
+    min-height:10vh;
+    max-height:82vh ;
+}
+.footer{
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 3px;
+    display: flex;
+    font-size: 10px;
+    grid-area:3/1/4/2;
+    max-width: 22vw;
+    min-height: 3vh;
+    margin-bottom:1px ;
+    gap:13px
+    
+}
+
+.right-box{
+    border-radius: 10px;
+    width: 76.5vw;
+    grid-area: 2/2/4/2;
+    margin: 1px;
+    max-height: 88vh; 
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+
+
+.library-text{
+    font-weight: bold;
+    font-style: regular;
+    font-size: medium;
+    padding-top: 12px;
+}
+
+.footer a{
+    color: gray;
+    text-decoration: none;
+}
+
+.right-box-footer{
+   width:130px;
+   height: 200px;
+   padding:20px;
+   padding-top:80px;
+   padding-left:38px;
+}
+
+.albums{
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    width: 190px;
+}
+
+
+
+
+/* different icons */
+.search-icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    
+}
+.home{
+    width: 30px;
+    height:30px ;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.home-svg{
+    height:30px ;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+    padding:10px ;
+    padding-left:20px;
+    background-color: black;
+    border-radius: 25px;
+}
+.library-icon{
+    width: 23px;
+    height: 23px;
+    padding-right: 0;
+    padding-left: 12px;
+}
+.plus{
+    padding-top:13px;
+    height: 15px;
+    width: 15px;
+}
+.more{
+    padding-top:13px;
+    height: 15px;
+    width: 15px;
+}
+.log{
+    border-radius: 40px;
+    width:8vw;
+    height:9vh;
+    text-decoration:none;
+}
+.sign{
+    border-radius: 40px;
+    width:8vw;
+    height:9vh;
+    text-decoration:none;
+}
+.right-box-links{
+    text-decoration: none;
+}
+
+/* different sections */
+.search-section{
+    left: 25%;
+    position: relative;
+    border-radius: 25px;
+    width: auto;
+    height: 45px;
+    margin-top: 5px;
+    max-width: 546px;
+    min-width: 350px
+}
+
+.searchbar{
+    position:relative;
+    bottom: 40px;
+    width: auto;
+    height: auto;
+    left: 33px;
+    top: -45px;
+}
+
+.logSin{
+    margin-left: 42vw;
+    width: auto;
+    padding-top: 0px;
+ }
+ 
+
+.library-part{
+    padding-right: 50px;
+    padding-left: 12px;
+}
+.right-box .card{
+    width:160px;
+    padding-top: 5px;
+    padding-left:20px ;
+}
+ 
+.right-box .card2{
+    width:160px;
+    padding-top: 5px;
+    padding-left:20px ;
+}
+
+.card > *{
+    padding-top: 3px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.card2 > *{
+    padding-top: 3px;
+}
+.card2 img{
+    width:100%;
+    object-fit: contain;
+    border-radius: 50%;
+    max-height: 163px;
+    max-width:160px;
+}
+
+
+
+
+
+
+
+/* search bar style */
+.header--actions {
+    display: flex;
+    align-items: center;
+}
+
+.header--search {
+    margin-left: 25px;
+    min-width: auto;
+    position: relative;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .left-icon {
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 0;
+    color: #333;
+    font-size: 1.375rem;
+    height: 40px;
+    line-height: 40px;
+}
+
+.input {
+    background-color: #191919;
+    margin: 0;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    height: 38px;
+    border-radius: 25px;
+    width: auto;
+    outline: 0;
+}
+
+.input-group.has-left-icon .input {
+    padding-left: 50px;
+}
+
+.input-group.has-right-icon .input {
+    padding-right: 65px;
+}
+
+.input-group .right-icon {
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+    color: #333;
+    font-size: 0.9375rem;
+    height: 40px;
+    line-height: 40px;
+}
+/*
+toggling the z-index =>
+hides/shows the X icon in the search input
+*/
+.input-group .right-icon.clear--search {
+    z-index: 0;
+}
